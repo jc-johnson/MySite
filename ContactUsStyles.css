@@ -1,0 +1,27 @@
+body {
+    background-color: cornflowerblue;
+    font-size: 100%;
+}
+
+h1 {
+    text-decoration: underline;
+    world-spacing: 40px;
+    font-style: oblique;
+
+
+}
+
+div {
+    text-aligh: justify;
+    text-decoration: overline;
+    letter-spacing: 0.18em;
+    word-spacing: 2px;
+    font-family: serif;
+    font-size: 1em;
+}
+
+section {
+    text-align: justify;
+    line-height: 1.8;
+    font-variant: small-caps;
+}
