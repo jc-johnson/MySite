@@ -7,32 +7,20 @@ h1 {
 }
 
 h3 {
-
+    background-color: cadetblue ;
 }
 
-/* unvisited link */
-a:link {
-    color: hotpink;
+/* unvisited link and visited */
+a:link, a:visited {
+    color: darkblue;
     text-decoration: none;
-    background-color: yellow;
+    background-color: cornflowerblue;
+    display: inline-block;
 }
 
-/* visited link */
-a:visited {
-    color: green;
-    text-decoration: none;
-    background-color: cyan;
-}
-
-/* mouse over link */
-a:hover {
+/* mouse over link and selected link */
+a:hover, a:active {
     color: red;
     text-decoration: underline;
     background-color: lightgreen;
-}
-
-/* selected link */
-a:active {
-    color: blue;
-    text-decoration: underline;
 }
